@@ -1,0 +1,51 @@
+:after,
+:before {
+  box-sizing: content-box;
+}
+html,
+body,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: #111b23;
+}
+.tac {
+  text-align: center;
+}
+.tal {
+  text-align-last: left;
+}
+.fr {
+  float: right;
+}
+textarea.el-textarea__inner {
+  resize: none;
+}
+.el-textarea .el-input__count {
+  background: transparent;
+  width: 150px;
+  right: -160px;
+  text-align: left;
+}
+.common-input-suffix .el-input__suffix {
+  width: 150px;
+  right: -155px;
+  text-align: left;
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.color-2283E2 {
+  color: #2283e2;
+}
+.cur-pointer {
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}

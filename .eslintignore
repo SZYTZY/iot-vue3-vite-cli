@@ -1,0 +1,4 @@
+./eslintrc.*
+public/*
+dist/*
+cypress/*
