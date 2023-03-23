@@ -23,12 +23,14 @@ export const changetime = (time: Date, type: Number | void) => {
       return y + '-' + m + '-' + D + ' ' + h + ':' + M;
   }
 };
-// 去除字符串前后空格
-export const trim = (str: any, type?: number) => {
+/**
+ * 去除字符串前后空格
+ * @param str 要操作的数据
+ * @param type 修改类型
+ * @returns 修改后的数据
+ */
+export const trim = (str: string, type?: number) => {
   // type:1-只去除末尾空格
-  if (!(typeof str === 'string')) {
-    return str;
-  }
   if (!str) {
     return '';
   }
