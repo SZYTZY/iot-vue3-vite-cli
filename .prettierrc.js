@@ -1,6 +1,6 @@
 module.exports = {
   "tabWidth": 2,
-  "useTabs": false, // 使用tab（制表符）缩进而非空格
+  "useTabs": true, // 使用tab（制表符）缩进而非空格
   "singleQuote": true,// 单引号
   "printWidth": 999,// 一行超过999个字符就换行
   "semi": true,// 是否在行尾加分号
